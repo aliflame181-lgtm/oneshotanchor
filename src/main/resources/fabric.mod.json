@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "oneshotanchor",
+  "version": "${version}",
+  "name": "OneShotAnchor",
+  "description": "One key press runs the full respawn anchor sequence: place, charge, detonate, restore slot. Client-side only.",
+  "authors": ["AR_LEGENDZ"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.oneshotanchor.OneShotAnchorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
